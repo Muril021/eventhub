@@ -25,13 +25,10 @@
             <img src="/img/hdcevents_logo.svg" alt="HDC Events">
           </a>
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a href="/" class="nav-link">Eventos</a>
-            </li>
-            <li class="nav-item">
-              <a href="/events/create" class="nav-link">Criar Eventos</a>
-            </li>
             @auth
+              <li class="nav-item">
+                <a href="/events/create" class="nav-link">Criar Eventos</a>
+              </li>
               <li class="nav-item">
                 <a href="/dashboard" class="nav-link">Meus eventos</a>
               </li>
