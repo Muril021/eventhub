@@ -22,7 +22,7 @@
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="collapse navbar-collapse" id="navbar">
           <a href="/" class="navbar-brand">
-            <img src="/img/hdcevents_logo.svg" alt="HDC Events">
+            <img src="/img/hdcevents_logo.svg" alt="EventHub">
           </a>
           <ul class="navbar-nav">
             @auth
@@ -67,7 +67,7 @@
       </div>
     </main>
     <footer>
-      <p>HDC Events &copy; 2024</p>
+      <p>EventHub &copy; 2024</p>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
