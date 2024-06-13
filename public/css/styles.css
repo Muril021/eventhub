@@ -41,6 +41,16 @@ header {
   padding: 10px;
 }
 
+#info-container .already-joined-msg {
+  margin: 15px 0;
+  color: #004085;
+  background-color: #CCE5FF;
+  border: 1px solid #B8DAFF;
+  border-radius: 5px;
+  padding: 10px;
+  width: 270px;
+}
+
 #navbar img {
   width: 40px;
 }
@@ -109,6 +119,7 @@ header {
 #cards-container img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  height: 50%;
 }
 
 .card-date {
@@ -173,6 +184,11 @@ header {
   font-size: 20px;
   color: #F2A340;
   margin-right: 5px;
+}
+
+ion-icon {
+  font-size: 20px;
+  vertical-align: text-bottom;
 }
 
 #info-container #event-submit {
