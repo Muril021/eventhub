@@ -45,6 +45,11 @@ Route::prefix('/')->group(function () {
         EventController::class,
         'joinEvent',
       ]);
+
+      Route::delete('/leave/{id}', [
+        EventController::class,
+        'leaveEvent',
+      ]);
   });
 })
 ->middleware('auth');

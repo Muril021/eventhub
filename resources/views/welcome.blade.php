@@ -39,7 +39,14 @@
             </p>
             <h5 class="card-title">{{ $event->title }}</h5>
             <p class="card-participants">
-              {{ count($event->users) }} Participantes
+              @if(
+                count($event->users) === 0
+                || count($event->users) > 1
+              )
+                {{ count($event->users) }} Participantes
+              @else
+                {{ count($event->users) }} Participante
+              @endif
             </p>
             <a
               href="/events/{{ $event->id }}"
